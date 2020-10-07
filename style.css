@@ -1,0 +1,41 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.9)), url(book.jpg) no-repeat center;
+	background-size: cover;
+	height: 100vh;
+	background-attachment: fixed;
+}
+h1{
+	color: white
+}
+input{
+width: 20%;
+padding: 10px;
+border: 1px solid white;
+background:transparent;
+color: white;
+text-align: center;
+}
+button{
+background-color: white;
+color: black;
+padding: 10px 20px;
+border: 0px;
+cursor: pointer;
+border-radius: 50px 30px;
+transition: 0.8s all;
+}
+
+button:hover{
+border-radius:10px;
+transition: 0.5s all;
+}
+.footer{
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: white;
+	margin-top: 50%
+}
